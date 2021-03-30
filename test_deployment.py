@@ -71,5 +71,6 @@ def main():
     public_security_group = 'Boto3-Public-SG'
     public_security_group_description = 'Public Security Group for Public Subnet Internet Access'
     ec2.create_security_group(public_security_group, public_security_group_description, vpc_id)
+    
 if __name__ == '__main__':
     main()
