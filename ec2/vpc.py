@@ -1,7 +1,6 @@
 class VPC:
     def __init__(self, client):
         self._client =  client
-        """ :type: pyboto3.ec2 """
         
     def create_vpc(self):
         print('Creating a VPC...')
